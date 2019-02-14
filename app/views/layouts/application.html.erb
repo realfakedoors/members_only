@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <% flash.each do |message| %>
+        <%= content_tag(:div, message) %>
+    <% end %>
+
+    <%= link_to "Sign in",  login_path  %>
+    <%= link_to "Sign out", logout_path %>
+
     <%= yield %>
   </body>
 </html>
