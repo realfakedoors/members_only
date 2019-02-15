@@ -22,7 +22,6 @@ module SessionsHelper
 	def log_out
 		session.delete(:user_id)
 		cookies.delete(:user_id)
-		@current_user.forget
 		@current_user = nil
 	end
 

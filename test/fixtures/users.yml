@@ -1,9 +1,11 @@
 bojack:
+  id: 1
   name: Bojack Horseman
   email: bojack@hollywoo.com
   password_digest: <%= User.digest('password') %>
 
 todd:
+  id: 2
   name: Todd Chavez
   email: todd@whattimeisitrightnow.com
   password_digest: <%= User.digest('password') %>
