@@ -1,3 +1,4 @@
 first_post:
   title: My very first post
   body: This is my first post as a certified user!
+  user_id: 1
